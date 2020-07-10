@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Asians&amp;Cosmetics</string>
+    <string name="welcome_login">login</string>
+    <string name="the_best_online_cosmetic_shopping_you_can_find_in_montreal">The best online cosmetic shopping you can find in montreal.</string>
 </resources>
