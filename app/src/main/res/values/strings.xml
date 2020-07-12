@@ -20,4 +20,5 @@
     <string name="debit">DEBIT</string>
     <string name="enter_date">EnterDate</string>
     <string name="enter_expiry_date">Enter Expiry Date</string>
+    <string name="cart">cart</string>
 </resources>
