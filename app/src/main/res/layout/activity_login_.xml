@@ -164,7 +164,7 @@
                     android:layout_weight="1"
                     android:src="@drawable/g_logo"
                     tools:ignore="ContentDescription">
-                    
+
                 </ImageView>
             </LinearLayout>
         </RelativeLayout>

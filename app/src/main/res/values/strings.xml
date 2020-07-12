@@ -6,7 +6,18 @@
     <string name="continue_with">Continue with</string>
     <string name="asian_amp_perfumes"><![CDATA[Asian & Perfumes]]></string>
     <string name="login_to">Login to</string>
-    <string name="the_best_online_perfume_shopping_you_can_find_in_montreal">the best online perfume shopping you can find in montreal</string>
+    <string name="the_best_online_perfume_shopping_you_can_find_in_montreal">The best online perfume shopping you can find in montreal</string>
     <string name="welcome_login">login</string>
     <string name="back">back</string>
+    <string name="total_amount">Total Amount</string>
+    <string name="email">Email</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="card_number">Card Number</string>
+    <string name="xxxx_xxxx_xxxx">XXXX-XXXX-XXXX</string>
+    <string name="cvv">CVV</string>
+    <string name="credit">CREDIT</string>
+    <string name="debit">DEBIT</string>
+    <string name="enter_date">EnterDate</string>
+    <string name="enter_expiry_date">Enter Expiry Date</string>
 </resources>
