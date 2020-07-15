@@ -1,6 +1,7 @@
 package com.example.asianscosmetics;
 
 import android.app.DatePickerDialog;
+import android.content.Intent;
 import android.os.Bundle;
 import android.text.InputType;
 import android.view.View;
@@ -50,6 +51,7 @@ public class Payment_Activity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 tvw.setText("Selected Date: " + eText.getText());
+                startActivity(new Intent(Payment_Activity.this, Menu_Activity.class));
             }
         });
     }

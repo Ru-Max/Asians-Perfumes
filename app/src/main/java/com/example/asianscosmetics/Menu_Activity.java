@@ -13,6 +13,7 @@ public class Menu_Activity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_menu_);
+
         button = findViewById(R.id.cart_button);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
