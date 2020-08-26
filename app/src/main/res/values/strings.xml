@@ -22,4 +22,5 @@
     <string name="enter_expiry_date">Enter Expiry Date</string>
     <string name="cart">cart</string>
     <string name="payment">Payment</string>
+    <string name="_100">$100</string>
 </resources>

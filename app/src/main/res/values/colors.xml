@@ -5,4 +5,5 @@
     <color name="colorPrimary">#fc6161</color>
     <color name="White">#ffffff</color>
     <color name="Black">#000000</color>
+    <color name="grey">#000000</color>
 </resources>
