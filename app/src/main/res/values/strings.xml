@@ -23,4 +23,12 @@
     <string name="cart">cart</string>
     <string name="payment">Payment</string>
     <string name="_100">$100</string>
+    <string name="email_address">Email address</string>
+    <string name="create_password">Create password</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="already_registered_login_here">Already registered login here</string>
+    <string name="register">Register</string>
+    <string name="enter_username">Enter Username</string>
+    <string name="enter_full_name">Enter Full Name</string>
+    <string name="Sign_up">Sign up</string>
 </resources>
