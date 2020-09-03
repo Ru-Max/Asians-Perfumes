@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "215663764798",
+    "firebase_url": "https://asiansandcosmetics.firebaseio.com",
+    "project_id": "asiansandcosmetics",
+    "storage_bucket": "asiansandcosmetics.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:215663764798:android:94dc24ea9ab8550c23f86f",
+        "android_client_info": {
+          "package_name": "com.example.asianscosmetics"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "215663764798-upjjctq5v43d0lv8i9tndkikp8q3a528.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.asianscosmetics",
+            "certificate_hash": "aeb8a64f64e042640af39d238435aca8a9c21874"
+          }
+        },
+        {
+          "client_id": "215663764798-2hi8kifok5u23o01qk931gvr9e45d88s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCE5m3IDWD1BQ0dJ4RUpyYJgegJApaoIoo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "215663764798-2hi8kifok5u23o01qk931gvr9e45d88s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

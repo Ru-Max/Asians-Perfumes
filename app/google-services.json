@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1022567153570",
+    "firebase_url": "https://asians-and-cosmetics.firebaseio.com",
+    "project_id": "asians-and-cosmetics",
+    "storage_bucket": "asians-and-cosmetics.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1022567153570:android:f5d58fd07c2f2ba5eb7cfb",
+        "android_client_info": {
+          "package_name": "com.example.asianscosmetics"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1022567153570-t9195j6atarvo6qnb6grm2bbpf0dthpb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC4sS2zmVG1U6WMIphrDXoN9UEhRd1_ZQE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1022567153570-t9195j6atarvo6qnb6grm2bbpf0dthpb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
