@@ -6,7 +6,7 @@
     android:background="@drawable/gradient_background"
     android:orientation="vertical"
     android:padding="30dp"
-    tools:context=".Signup_Activity">
+    tools:context="com.example.asianscosmetics.Signup_Activity">
 
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
@@ -118,7 +118,7 @@
         android:layout_marginTop="40dp"
         android:background="@drawable/round_corner_button"
         android:text="@string/register"
-        android:textSize="20sp"></Button>
+        android:textSize="20sp"/>
 
 
     <TextView
@@ -136,5 +136,4 @@
         android:layout_width="match_parent"
         android:layout_height="100dp"
         android:visibility="invisible" />
-
 </LinearLayout>
