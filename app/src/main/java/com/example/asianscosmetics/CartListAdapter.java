@@ -19,7 +19,7 @@ import admin.employee.listeners.QuantityListener;
 import admin.employee.services.models.Item;
 
 
-    public class CartListAdapter extends RecyclerView.Adapter {
+    public class CartListAdapter<itemobject> extends RecyclerView.Adapter {
         private List callListResponses = new ArrayList<>();
         final List templist=new ArrayList<>();
         private Activity context;
@@ -39,7 +39,14 @@ import admin.employee.services.models.Item;
             return new ViewHolder(itemView);
         }
 
-
+        @Override
+        public static List <item> selecteditems;
+        if(ItemListAdapter.selecteditems.contains(itemobject)){
+            //List already contains item
+        }else{
+            //List does not contains item you can add item here.
+            ItemListAdapter.selecteditems.add(itemobject);
+        }
         @Override
         public void onBindViewHolder(final ViewHolder holder, int position) {
             final Item call = (Item) callListResponses.get(position);
