@@ -53,8 +53,7 @@
             android:onClick="insertOrder"
             android:text="Place Order"
             android:textColor="@android:color/white"
-            android:theme="@style/Theme.MaterialButton"
-            tools:ignore="OnClick">
+            android:theme="@style/Theme.MaterialButton">
         </Button>
 
     </RelativeLayout>

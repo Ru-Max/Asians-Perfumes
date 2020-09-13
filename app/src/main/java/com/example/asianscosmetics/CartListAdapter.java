@@ -43,7 +43,10 @@ import admin.employee.services.models.Item;
         public static List <item> selecteditems;
         if(ItemListAdapter.selecteditems.contains(itemobject)){
             //List already contains item
-        }else{
+        }else
+        private final Object itemobject;
+
+        {
             //List does not contains item you can add item here.
             ItemListAdapter.selecteditems.add(itemobject);
         }
