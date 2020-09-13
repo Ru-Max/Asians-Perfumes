@@ -8,8 +8,7 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
-    <style name="Theme.MaterialButton">button</style>
-    <style name="Theme.MaterialButton" parent="AppTheme" tools:ignore="DuplicateDefinition">
+    <style name="Theme.MaterialButton">
         <item name="colorAccent">@color/colorAccent</item>
         <item name="colorButtonNormal">@color/colorPrimaryDark</item>
         <item name="colorControlHighlight">@color/colorAccent</item>
