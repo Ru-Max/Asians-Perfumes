@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -10,6 +9,7 @@
         android:background="#e1e1e1"
         android:layout_height="fill_parent"
         android:layout_width="fill_parent">
+
         <LinearLayout
             android:id="@+id/layout_total"
             android:layout_height="wrap_content"
@@ -35,13 +35,12 @@
         </LinearLayout>
 
 
-        <android.support.v7.widget.RecyclerView
+        <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/recycler_cart"
             android:layout_above="@+id/btn_placeorder"
             android:layout_below="@+id/layout_total"
             android:layout_height="match_parent"
-            android:layout_width="match_parent">
-        </android.support.v7.widget.RecyclerView>
+            android:layout_width="match_parent"></androidx.recyclerview.widget.RecyclerView>
 
 
         <Button
@@ -50,11 +49,9 @@
             android:layout_alignParentBottom="true"
             android:layout_height="60dp"
             android:layout_width="match_parent"
-            android:onClick="insertOrder"
             android:text="Place Order"
             android:textColor="@android:color/white"
-            android:theme="@style/Theme.MaterialButton">
-        </Button>
+            android:theme="@style/Theme.MaterialButton"></Button>
 
     </RelativeLayout>
-</androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>
