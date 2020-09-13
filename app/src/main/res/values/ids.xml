@@ -7,4 +7,5 @@
     <item name="itemprice" type="id" />
     <item name="itemsize" type="id" />
     <item name="tv_quantity" type="id" />
+    <item name="btn_placeorder" type="id" />
 </resources>

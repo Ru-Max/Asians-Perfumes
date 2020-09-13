@@ -1,57 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".Cart_Activity">
-
-    <RelativeLayout
-        android:background="#e1e1e1"
-        android:layout_height="fill_parent"
-        android:layout_width="fill_parent">
-
-        <LinearLayout
-            android:id="@+id/layout_total"
-            android:layout_height="wrap_content"
-            android:layout_width="match_parent"
-            android:padding="5dp"
-            android:weightSum="2">
-            <TextView android:gravity="end"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:layout_width="match_parent"
-                android:text="Total : "
-                android:textSize="20dp">
-            </TextView>
-
-            <TextView
-                android:id="@+id/tv_total"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:layout_width="match_parent"
-                android:text="0 Rs"
-                android:textSize="20dp">
-            </TextView>
-        </LinearLayout>
-
-
-        <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/recycler_cart"
-            android:layout_above="@+id/btn_placeorder"
-            android:layout_below="@+id/layout_total"
-            android:layout_height="match_parent"
-            android:layout_width="match_parent"></androidx.recyclerview.widget.RecyclerView>
-
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".Cart_Activity">
 
         <Button
-            android:id="@+id/btn_placeorder"
-            android:layout_gravity="center"
-            android:layout_alignParentBottom="true"
-            android:layout_height="60dp"
-            android:layout_width="match_parent"
-            android:text="Place Order"
-            android:textColor="@android:color/white"
-            android:theme="@style/Theme.MaterialButton"></Button>
-
-    </RelativeLayout>
-</LinearLayout>
+            android:id="@+id/payment_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/payment"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
