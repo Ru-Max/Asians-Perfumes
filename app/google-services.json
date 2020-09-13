@@ -1,79 +1,42 @@
 {
   "project_info": {
-    "project_number": "1078027618754",
-    "firebase_url": "https://hourlycycle.firebaseio.com",
-    "project_id": "hourlycycle",
-    "storage_bucket": "hourlycycle.appspot.com"
+    "project_number": "215663764798",
+    "firebase_url": "https://asiansandcosmetics.firebaseio.com",
+    "project_id": "asiansandcosmetics",
+    "storage_bucket": "asiansandcosmetics.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:1078027618754:android:71e770c2035ad0aaf5ee5b",
+        "mobilesdk_app_id": "1:215663764798:android:94dc24ea9ab8550c23f86f",
         "android_client_info": {
-          "package_name": "com.aiden.mobike"
+          "package_name": "com.example.asianscosmetics"
         }
       },
       "oauth_client": [
         {
-          "client_id": "1078027618754-t30tb0mjfuvqgmqnt3dlp06j1fv0c3ls.apps.googleusercontent.com",
+          "client_id": "215663764798-upjjctq5v43d0lv8i9tndkikp8q3a528.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.aiden.mobike",
-            "certificate_hash": "939b7500981388f87ff25a975982ce4f31dc0bf8"
-          }
-        },
-        {
-          "client_id": "1078027618754-5nldth0o3j81hq1jb2krd4vn10jp20rs.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
-      "api_key": [
-        {
-          "current_key": "AIzaSyB6WS-fVm5T5RYsD2YkToLZH7b3aSNXQtY"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "1078027618754-5nldth0o3j81hq1jb2krd4vn10jp20rs.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:1078027618754:android:a32fa61dfcbb11f1f5ee5b",
-        "android_client_info": {
-          "package_name": "com.example.asiancosmetics"
-        }
-      },
-      "oauth_client": [
-        {
-          "client_id": "1078027618754-7age8rfgnd4bh66tk3h5leer81l7m339.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.example.asiancosmetics",
+            "package_name": "com.example.asianscosmetics",
             "certificate_hash": "aeb8a64f64e042640af39d238435aca8a9c21874"
           }
         },
         {
-          "client_id": "1078027618754-5nldth0o3j81hq1jb2krd4vn10jp20rs.apps.googleusercontent.com",
+          "client_id": "215663764798-2hi8kifok5u23o01qk931gvr9e45d88s.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyB6WS-fVm5T5RYsD2YkToLZH7b3aSNXQtY"
+          "current_key": "AIzaSyCE5m3IDWD1BQ0dJ4RUpyYJgegJApaoIoo"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "1078027618754-5nldth0o3j81hq1jb2krd4vn10jp20rs.apps.googleusercontent.com",
+              "client_id": "215663764798-2hi8kifok5u23o01qk931gvr9e45d88s.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
