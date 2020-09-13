@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="img_deleteitem" type="id" />
+    <item name="cart_minus_img" type="id" />
+    <item name="cart_plus_img" type="id" />
+    <item name="itemname" type="id" />
+    <item name="itemprice" type="id" />
+    <item name="itemsize" type="id" />
+    <item name="tv_quantity" type="id" />
+</resources>
