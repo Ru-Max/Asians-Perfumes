@@ -67,7 +67,7 @@
             android:ems="10"
             android:hint="@string/enter_full_name"
             android:importantForAutofill="yes"
-            android:inputType="textPassword"
+            android:inputType="textPersonName"
             android:textColor="#FFFFFF"
             android:textSize="20sp" />
 
@@ -94,11 +94,12 @@
             android:layout_below="@id/password_text"
             android:layout_marginTop="10dp"
             android:autofillHints="@string/password"
-            android:drawableStart="@drawable/lock"
             android:drawableLeft="@drawable/lock"
             android:hint="@string/password"
             android:importantForAutofill="yes"
-            android:inputType="textPassword"></EditText>
+            android:inputType="textPassword">
+
+        </EditText>
 
         <EditText
             android:id="@+id/PasswordConfirm"

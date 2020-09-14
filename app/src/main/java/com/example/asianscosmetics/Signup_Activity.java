@@ -75,6 +75,7 @@ public class Signup_Activity extends AppCompatActivity {
                             startActivity(new Intent(getApplicationContext(),MainActivity.class));
                         }else{
                             Toast.makeText(Signup_Activity.this, "Error !" + task.getException().getMessage(), Toast.LENGTH_SHORT).show();
+                            progressBar.setVisibility(View.INVISIBLE);
                         }
                     }
                 });
