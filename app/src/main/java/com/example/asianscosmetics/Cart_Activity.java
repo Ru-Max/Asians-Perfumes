@@ -14,7 +14,7 @@ public class Cart_Activity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_cart_);
 
-        button = findViewById(R.id.btn_placeorder);
+        button = findViewById(R.id.payment_button);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

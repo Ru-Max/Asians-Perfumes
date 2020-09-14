@@ -1,42 +1,63 @@
 {
   "project_info": {
-    "project_number": "215663764798",
-    "firebase_url": "https://asiansandcosmetics.firebaseio.com",
-    "project_id": "asiansandcosmetics",
-    "storage_bucket": "asiansandcosmetics.appspot.com"
+    "project_number": "766858115413",
+    "firebase_url": "https://asiancosmetics-220bb.firebaseio.com",
+    "project_id": "asiancosmetics-220bb",
+    "storage_bucket": "asiancosmetics-220bb.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:215663764798:android:94dc24ea9ab8550c23f86f",
+        "mobilesdk_app_id": "1:766858115413:android:b42ba1ed6d60195ad5d7dc",
         "android_client_info": {
-          "package_name": "com.example.asianscosmetics"
+          "package_name": "com.example.asiancosmetics"
         }
       },
       "oauth_client": [
         {
-          "client_id": "215663764798-upjjctq5v43d0lv8i9tndkikp8q3a528.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.example.asianscosmetics",
-            "certificate_hash": "aeb8a64f64e042640af39d238435aca8a9c21874"
-          }
-        },
-        {
-          "client_id": "215663764798-2hi8kifok5u23o01qk931gvr9e45d88s.apps.googleusercontent.com",
+          "client_id": "766858115413-p7efbncoeiq98rt5b3mo56l77pf50fvk.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCE5m3IDWD1BQ0dJ4RUpyYJgegJApaoIoo"
+          "current_key": "AIzaSyAOHsio7s8mXuuUc_TlOcgL0-4uTD4k-wY"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "215663764798-2hi8kifok5u23o01qk931gvr9e45d88s.apps.googleusercontent.com",
+              "client_id": "766858115413-p7efbncoeiq98rt5b3mo56l77pf50fvk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:766858115413:android:3b97ea9dead67ac7d5d7dc",
+        "android_client_info": {
+          "package_name": "com.example.asianscosmetics"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "766858115413-p7efbncoeiq98rt5b3mo56l77pf50fvk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAOHsio7s8mXuuUc_TlOcgL0-4uTD4k-wY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "766858115413-p7efbncoeiq98rt5b3mo56l77pf50fvk.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

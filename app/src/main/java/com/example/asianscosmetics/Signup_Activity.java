@@ -18,8 +18,6 @@ import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 
-import org.w3c.dom.Text;
-
 public class Signup_Activity extends AppCompatActivity {
     Button button;
     EditText mFullName, mUsername, mEmail, mPassword, mPasswordConfirm;
@@ -36,14 +34,13 @@ public class Signup_Activity extends AppCompatActivity {
 
         button = findViewById(R.id.login_button);
         mFullName = findViewById(R.id.FullName);
-        mUsername = findViewById(R.id.UserName);
+        mUsername = findViewById(R.id.username_edit);
         mEmail = findViewById(R.id.Email);
         mPassword = findViewById(R.id.Password);
         mPasswordConfirm = findViewById(R.id.PasswordConfirm);
 
         fAuth = FirebaseAuth.getInstance();
         progressBar = findViewById(R.id.progressBar);
-        mRegister = findViewById(R.id.Login);
 
         if(fAuth.getCurrentUser() != null){
             startActivity(new Intent(getApplicationContext(),MainActivity.class));
@@ -81,6 +78,6 @@ public class Signup_Activity extends AppCompatActivity {
                         }
                     }
                 });
-            };
+            }
         });
 }}
